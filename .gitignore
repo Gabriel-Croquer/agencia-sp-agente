@@ -1,0 +1,27 @@
+# Dados sensiveis
+.env
+*.env
+credentials.*
+
+# Bases de dados grandes
+dados/*.csv
+dados/*.xlsx
+dados/*.xls
+dados/*.json
+!dados/.gitkeep
+
+# PDFs grandes (use Git LFS se quiser versionar)
+# context/*.pdf
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Claude Code local
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/agent-memory-local/
