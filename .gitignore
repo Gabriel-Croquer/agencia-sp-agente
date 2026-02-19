@@ -21,7 +21,8 @@ desktop.ini
 # Node
 node_modules/
 
-# Claude Code local
+# Claude Code local (settings.json tem API key hardcoded)
+.claude/settings.json
 .claude/settings.local.json
 CLAUDE.local.md
 .claude/agent-memory-local/
