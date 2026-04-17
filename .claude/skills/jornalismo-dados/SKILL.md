@@ -15,6 +15,14 @@ allowed-tools: Read, Write, Glob, Grep, Bash, Edit
 - Identifique o que cada coluna representa
 - Verifique qualidade: nulos, duplicatas, inconsistencias, encodings
 
+### 1b. Validacao estrutural (antes de qualquer analise)
+
+Antes de calcular QUALQUER estatistica ou tendencia:
+- Calcule razao max/mediana de cada coluna numerica. Se > 5x, PARE e reporte
+- Em series temporais, verifique saltos > 3x entre periodos adjacentes
+- Verifique lacunas (meses/anos faltantes)
+- Sinalize anomalias com **[VERIFICAR DADO]** e nao prossiga ate esclarecer
+
 ### 2. Analise exploratoria
 - Estatisticas descritivas: media, mediana, min, max, desvio padrao
 - Distribuicao das variaveis principais
@@ -225,6 +233,11 @@ Ao analisar qualquer base, responda:
 - Registros completos: [X%]
 - Problemas encontrados: [listar]
 - Ha dados ausentes que sao noticia por si so? [sim/nao — explicar]
+
+## Saude dos dados
+- **Anomalias detectadas:** [listar valores atipicos, saltos, descontinuidades — ou "nenhuma"]
+- **Limitacoes:** [o que os dados NAO dizem, variaveis ausentes]
+- **Confianca geral na base:** [ALTA / MEDIA / BAIXA — justificar]
 
 ## Historias encontradas (por angulo)
 

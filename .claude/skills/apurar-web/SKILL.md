@@ -22,10 +22,12 @@ Ao receber um tema para apurar, execute as seguintes buscas em ordem:
 - Objetivo: ver como a midia esta cobrindo o tema
 - Registre: angulos diferentes, dados adicionais, fontes citadas
 
-### 3. Fontes oficiais
-- Busque em gov.br, sp.gov.br, portais de transparencia
+### 3. Fontes oficiais do governo de SP (FONTES PRIMARIAS)
+- PRIORIDADE MAXIMA: dominios `sp.gov.br` (agenciasp.sp.gov.br, semil.sp.gov.br, ppi.sp.gov.br, etc.)
+- Tambem validos: `gov.br` (federal), portais de transparencia
 - Objetivo: dados primarios, decretos, leis, portarias
 - Registre: numeros oficiais, datas de vigencia, links diretos
+- IMPORTANTE: nos SOMOS a Agencia SP. Portais de noticias (Terra, VTV News, GMC Online, etc.) NAO sao fontes — sao republicadores dos nossos releases. Sempre buscar a materia ORIGINAL no dominio sp.gov.br
 
 ### 4. Dados e estatisticas
 - Busque em IBGE, SEADE, DataSUS, INEP conforme o tema

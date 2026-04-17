@@ -26,3 +26,12 @@ node_modules/
 .claude/settings.local.json
 CLAUDE.local.md
 .claude/agent-memory-local/
+
+# Reportagens geradas pelo agente (outputs, ~3.6GB)
+REPORTAGENS/
+
+# Outputs ephemerais (transcricoes, apuracoes)
+outputs/
+
+# Script especifico de reportagem (deveria estar em REPORTAGENS/)
+scripts/gerar-docx-ddm.py

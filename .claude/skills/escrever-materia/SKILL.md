@@ -7,6 +7,10 @@ allowed-tools: Read, Write, Glob, Grep, Edit
 
 # Skill: Escrever materia jornalistica
 
+## Principio fundamental
+
+**Cada afirmacao factual do texto precisa de fonte.** Se voce nao tem fonte para uma informacao, nao escreva. Se tem duvida, sinalize com [VERIFICAR]. Generalizacoes a partir de exemplos sao proibidas: citar 5 casos nao autoriza dizer "todos". Superlativos ("o maior do Brasil", "o primeiro") exigem fonte verificavel. Se a fonte e o proprio governo, atribua ("segundo o Governo de SP"). Afirmacao sem fonte e erro jornalistico grave.
+
 ## Antes de escrever
 
 1. Leia `context/manual-redacao-agenciasp.pdf` se ainda nao leu nesta sessao
